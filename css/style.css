@@ -82,7 +82,7 @@ nav a.active {
   text-align: center;
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url(../img/hero.jpg) center / cover;
+    url(../img/index/index-main.jpg) center / cover;
 }
 
 .hero h2 {

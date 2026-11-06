@@ -10,3 +10,10 @@
 .shop li {
   margin-bottom: 4px;
 }
+main {
+  text-align: center;
+}
+.shop img{
+    display: block;
+    margin: 0 auto;
+}
