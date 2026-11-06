@@ -1,0 +1,12 @@
+.shop img {
+  max-width: 500px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+}
+.shop h3 {
+  margin: 24px 0 8px;
+  color: #7b4b2a;
+}
+.shop li {
+  margin-bottom: 4px;
+}
