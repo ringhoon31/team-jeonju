@@ -48,9 +48,19 @@ header h1 {
 }
 
 nav a {
-  margin-left: 8px;
-  padding: 6px 14px;
-  border-radius: 20px;
+    margin-left: 8px;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+nav a.active {
+    background: #fff;
+    color: #7b4b2a;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -63,7 +73,6 @@ nav a.active {
   font-weight: bold;
 }
 
-/* ===== 첫 화면 hero (index) ===== */
 .hero {
   height: 360px;
   display: flex;
@@ -96,9 +105,18 @@ main {
 
 /* 서브 페이지 제목 영역 */
 .page-title {
-  margin-bottom: 32px;
-  padding-bottom: 16px;
-  border-bottom: 3px solid #d9a066;
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #d9a066;
+}
+
+.page-title h2 {
+    font-size: 32px;
+    color: #7b4b2a;
+}
+
+.page-title p {
+    color: #777;
 }
 
 .page-title h2 {
@@ -110,24 +128,43 @@ main {
   color: #777;
 }
 
-/* ===== 카드 3칸 ===== */
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
 }
 
 .card {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s, box-shadow 0.2s;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 16px 20px 20px;
+}
+
+.card-body h3 {
+    margin-bottom: 4px;
+    color: #7b4b2a;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #666;
 }
 
 .card img {
@@ -157,12 +194,12 @@ main {
 
 /* ===== footer ===== */
 footer {
-  margin-top: 60px;
-  padding: 24px;
-  text-align: center;
-  font-size: 14px;
-  color: #ccc;
-  background: #3b2a1e;
+    margin-top: 60px;
+    padding: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    background: #3b2a1e;
 }
 
 /* ===== 태블릿·모바일 ===== */
